@@ -17,17 +17,21 @@ html {
 }
 
 .banner-header {
-  /* background-image: url("welcome.png");
-  background-size: cover; */
-  /* max-width: 100%; */
   color: #e5e5e5;
 }
 
-.card-deck .card {
-  min-width: 220px;
-}
 
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.footer {
+  position: relative;
+  margin-top: 40px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
